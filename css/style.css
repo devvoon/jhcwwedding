@@ -336,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .qbootstrap-cover,
 .video-hero {
-  background-size: cover;
+  background-size: contain;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -670,8 +670,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
   }
 }
-#qbootstrap-countdown .section-heading .datewed {
-  font-size: 24px;
+#qbootstrap-countdown .datewed {
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
 #qbootstrap-countdown .section-heading.svg-sm .svg {
@@ -694,11 +694,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-countdown .countdown {
   margin-bottom: 0;
-  font-size: 80px;
+  font-size: 24px;
   color: #fff;
 }
 #qbootstrap-countdown .countdown span {
-  margin: 0 30px;
+  margin: 0 8px;
   display: inline-block;
   font-family: "Clicker Script", cursive;
 }
@@ -714,9 +714,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .couple {
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 40px;
-  margin-top: 110px;
+  border: 0px solid rgba(0, 0, 0, 0.05);
+  padding: 0px;
+  margin-top: 30px;
 }
 .couple.groom {
   position: relative;
@@ -724,12 +724,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .couple.groom:after {
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   content: '';
-  background: #f4f3e2;
   z-index: -1;
 }
 .couple.bride {
@@ -738,12 +737,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .couple.bride:after {
   position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
-  content: '';
-  background: #fef6f8;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   z-index: -1;
 }
 .couple img {
@@ -763,7 +760,7 @@ h1, h2, h3, h4, h5, h6 {
 .couple .desc h2 {
   color: #FF847C;
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .timeline {
@@ -1684,5 +1681,104 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+.main_dday_area {
+	width: 100%;
+	padding: 50px 0;
+	background-color: #f9f9f9;
+}
+
+.main_dday_wrapper {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	color: #ffffff;
+}
+
+.main_dday_text {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.main_dday_time_wrapper {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main_dday_time_wrapper > div {
+	padding: 5px 0;
+	font-size: 0.8em;
+}
+
+.main_dday_time_wrapper > div.main_dday_date {
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.main_dday_time_wrapper > div.main_dday_time {
+	color: #2a2a2a;
+	letter-spacing: 1px;
+}
+
+.main_dday_date {
+	font-size: 2em;
+	color: #ffffff;
+}
+
+.main_dday_name {
+	text-align: center;
+	width: 180px;
+	font-size: 1.4em;
+	margin: 0 auto 40px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.main_dday_calendar {
+	margin: 0 40px;
+	padding: 30px 0;
+	/*border-top: 1px solid #e2e2e2;*/
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.main_dday_calendar table {
+	width: 100%;
+}
+
+.main_dday_calendar table th {
+	text-align: center;
+	padding: 8px 0;
+	color: #ffffff;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	font-size: 0.9em;
+}
+
+.main_dday_calendar table td {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.main_dday_calendar table tr:nth-child(2) td {
+	padding-top: 20px;
+	height: 60px;
+}
+
+.main_dday_calendar table td span.dday {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 20px;
+	padding: 5px;
+	background-color: #ed9d9d;
+	color: #fff;
+	border-radius: 50%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
