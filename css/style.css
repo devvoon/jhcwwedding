@@ -969,6 +969,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-testimonials {
+  background-size: cover;
   background: #FF847C;
   z-index: 0;
 }
